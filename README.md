@@ -13,8 +13,6 @@
 
 ### 1. Clone the repository and run the following commands:
 
-Syntax highlighting
-
 ``` csharp
 dotnet restore
 ```
@@ -56,5 +54,5 @@ docker-compose up
 
 [You have more examples here](https://grafana.com/grafana/dashboards?orderBy=name&direction=asc) and of course, you can build for your own!
 
-#is we
+#iswe
 
