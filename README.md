@@ -23,7 +23,7 @@ dotnet build
 
 ### 2. Build the image of your API:
 
-Where "promgrafmetrics" is and example of name choosed for your image
+Where "promgrafmetrics" is an example of name choosed for one image
 
 ```
 docker build --no-cache -t promgrafmetrics .     
@@ -31,7 +31,7 @@ docker build --no-cache -t promgrafmetrics .
 
 ### 3. Rum the "docker-file":
 
-If you change the name of image, change the vale of image in `docker-compose` file to mantaint it consistent. Then, in the directory where the docker-file is, run 
+If you change the name of image, change the value of image in `docker-compose` file to mantaint it consistent. Then, in the directory where the docker-file is, run 
 
 ```
 docker-compose up       
