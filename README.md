@@ -45,7 +45,7 @@ docker-compose up
 
 - [See here how to add Datasources](https://grafana.com/docs/grafana/latest/features/datasources/add-a-data-source/) 
 
-- Protip: get the IP of your Prometheus container (inspect your container) and set the IP like your host. Example: ```123.45.67.89:9090```
+- Protip: get the IP of your Prometheus container (inspect your container) and set the IP like your host. Example: ```123.45.67.89:9090```. Try too ```prometheus:9090``` (or the name of your Prometheus service in docker-file)
 
 - [Import the json file in Grafana](https://grafana.com/docs/grafana/latest/reference/export_import/)
 
