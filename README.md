@@ -29,7 +29,7 @@ Where "promgrafmetrics" is an example of name choosed for one image
 docker build --no-cache -t promgrafmetrics .     
 ```
 
-### 3. Rum the "docker-file":
+### 3. Run the "docker-file":
 
 If you change the name of image, change the value of image in `docker-compose` file to mantaint it consistent. Then, in the directory where the docker-file is, run 
 
